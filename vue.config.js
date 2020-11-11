@@ -23,7 +23,7 @@ module.exports = {
             "owner":"yangchongduo",
             "publishAutoUpdate": true ,
             "releaseType": "release",
-            "token":"a6ce2b33b478db56a16db114d25fd9699519325f"
+            // "token":"a6ce2b33b478db56a16db114d25fd9699519325f"
           }
           // {
           //   provider: 'generic',
