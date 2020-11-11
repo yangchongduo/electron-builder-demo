@@ -29,6 +29,7 @@ autoUpdater.autoInstallOnAppQuit = true // APP退出的时候自动安装
 //   provider: 'generic',
 //   url: 'http://qiniucdn.tianlinyong.cn/app/' // git仓库
 // })
+
 autoUpdater.on('update-available', (info) => {
   console.log(info)
   sendStatusToWindow('autoUpdater-canUpdate', info)

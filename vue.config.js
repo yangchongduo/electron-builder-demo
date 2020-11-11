@@ -19,9 +19,16 @@ module.exports = {
         },
         publish: [
           {
-            provider: 'generic',
-            url: 'http://qiniucdn.tianlinyong.cn/app/'
+            "provider":"github",
+            "owner":"yangchongduo",
+            "publishAutoUpdate": true ,
+            "releaseType": "release",
+            "token":"a6ce2b33b478db56a16db114d25fd9699519325f"
           }
+          // {
+          //   provider: 'generic',
+          //   url: 'http://qiniucdn.tianlinyong.cn/app/'
+          // }
         ]
       }
     }

@@ -1,6 +1,8 @@
 {
   "name": "electron-builder-demo",
-  "version": "0.1.0",
+  "version": "0.1.3",
+  "description":"ces",
+  "author":"yangchongduo",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,17 +12,6 @@
     "electron:serve": "vue-cli-service electron:serve",
     "postinstall": "electron-builder install-app-deps",
     "postuninstall": "electron-builder install-app-deps"
-  },
-  "build": {
-    "win": {
-      "publish":{
-        "provider":"github",
-        "owner":"yangchongduo",
-        "publishAutoUpdate": true ,
-        "releaseType": "release",
-        "token":"a6ce2b33b478db56a16db114d25fd9699519325f"
-      }
-    }
   },
   "main": "background.js",
   "dependencies": {
